@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2023, 3:14:48 PM
+    Author     : ACER
+*/
+
+h1{
+    font-family: 'Mali', cursive;
+}
+.nav-item{
+    max-width: 230px;
+}
+.nav-item a, i{
+    font-size: 20px;
+    color: #000 !important;
+    font-weight: 500;
+}
+.nav-item a:hover{
+    font-size: 20px;
+    color: #fff!important;
+    text-decoration: none;
+    text-shadow: -2px 2px 0px #6abfa5;
+}
+.de-muc{
+    text-shadow: -2px 2px 0px #6abfa5;
+}
+.bg-tb{
+    background-color: #f27979!important;
+}
+.form{
+    width: 100%;
+}
+form{
+    max-width: 450px;
+}
+.row span{
+    line-height: 36px;
+}
+/*.btn-success:hover{
+    background-color: #f2c26f !important;
+}*/
+.rounded-circle{
+    animation: logo 2.5s cubic-bezier(0.8, -0.84, 0.22, 1.71) infinite;
+}
+@keyframes logo{
+    to {
+        transform: rotate(360deg);
+    }
+}
+footer {
+    background-color: #ff9a9e; 
+}

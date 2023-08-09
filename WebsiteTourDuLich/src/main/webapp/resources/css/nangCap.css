@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2023, 3:15:40 PM
+    Author     : ACER
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#khong-tim-thay{
+    position: relative;
+    height: 100vh;
+    background-color: #383A59;
+    color: #fff;
+}
+#khong-tim-thay .khong-tim-thay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.khong-tim-thay{
+    max-width: 710px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
+
+}
+#khong-tim-thay .khong-tim-thay .khong-tim-thay-404{
+    height: 200px;
+    line-height: 200px;
+}
+#khong-tim-thay .khong-tim-thay-404 h1{
+    font-size: 65px;
+    margin: 0px;
+    color: #ff508e;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+.khong-tim-thay p{
+    font-size: 26px;
+}
+.khong-tim-thay a{
+    color: rgba(57, 107, 203, 1);
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;    
+    font-family: 'Sansita Swashed', cursive;
+}
+.khong-tim-thay a:hover{
+    text-decoration: none;
+}
+     

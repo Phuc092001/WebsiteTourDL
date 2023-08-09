@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2023, 3:16:36 PM
+    Author     : ACER
+*/
+
+#jumbotron .container {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.info{
+    color: black;
+    margin-left: 50px;
+    top: 10;
+}
+.info p {
+    font-size: 24px  !important; 
+    font-family: 'Sansita Swashed', cursive;
+}
+h1 {
+    font-weight: 700 !important;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 65px  !important; 
+    color: white;
+}
+.info-location {
+    min-height: 300px!important;
+    max-width: 600px!important;
+    padding: 80px 0px !important;
+    font-size: 24px;
+    margin: 0 auto 0 200px;
+}
+.info-location p{
+    line-height: 34px;
+}
+.info .ten-ct {
+    color: #f2c26f;
+}
+.bg{
+    transform: rotateY(180deg)!important;
+    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_19731/v2/wp-content/uploads/2018/07/bg-home-2.png );
+    width: 100% !important;
+    height: 800px;
+    padding-top: 200px;
+    
+}
+.bg-location{
+    transform: rotateY(180deg);
+    width: 50% !important;
+    background-color: #c4eeec;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    font-family: 'Mali', cursive;
+}
+.bg-2{
+    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_19731/v2/wp-content/uploads/2018/07/bg-home-5-1.png );
+    height: 800px;
+}
+.info-location-2 {
+    min-height: 300px!important;
+    max-width: 600px!important;
+    padding-top: 350px!important;
+    font-size: 24px;
+    margin: 0 auto 0 200px;
+    font-family: 'Mali', cursive;
+}
+.box-images .row img{
+    border-radius: 10px;
+}
+.box-images .row img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 7px rgb(0 0 0 / 30%), 0 15px 15px rgb(0 0 0 / 30%);
+    transition: box-shadow ease-in-out 0.2s;
+    transform: scale(1.05);
+}
+h4.text-white {
+    margin-top: -50px;
+    margin-left: 20px;
+}
+h3{
+    font-size: 30px!important;
+    font-family: 'Mali', cursive;
+}
+.box-images .row > div{
+    margin-bottom: 30px;
+}
+.row .col-md-8 img{
+    height: 410px!important;
+}
+a:hover{
+    text-decoration: none!important;
+}
+.bg-diem-den{
+    height: 800px;
+    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_19731/v2/wp-content/uploads/2018/07/bg-home-6.png );
+}
+.ket-thuc{
+    display: flex;
+    height: 300px!important;
+    width: 600px!important;
+    font-size: 24px;
+    background-color: #c4eeec;
+    border-radius: 10px;
+    font-family: 'Mali', cursive;
+    z-index: 2;
+    position: absolute;
+}
+.bg-ket-thuc{
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(196, 238, 236, 0.5);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 65%), 0 6px 6px rgb(0 0 0 / 15%);
+}
+.bg-ket-thuc-1{
+    left: 180px;
+    bottom: 100px;
+}
+.bg-ket-thuc-2{
+    right: 180px;
+    top: 120px;
+}
+.bg-ket-thuc-3{
+    width: 300px;
+    background-color: transparent;
+    left: 300px;
+    bottom: 500px;
+    z-index: 5;
+}
